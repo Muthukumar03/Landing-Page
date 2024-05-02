@@ -1,0 +1,65 @@
+body{
+    background-image: url('banner-bg.png');
+    background-size: cover;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bar{
+    background-color: rgb(15, 3, 67);
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 1080px;
+}
+.hoverable:hover{
+    color: rgb(255, 119, 0);
+}
+a{
+    padding-left: 40px;
+    font-size: large;
+    color: rgb(247, 247, 247);
+}
+.header{
+    color: rgb(247, 247, 247);
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+.para{
+    color: rgb(247, 247, 247);
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-left: 200px;
+    margin-top: 5px;
+}
+.but{
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.but1{
+color: rgb(247, 247, 247);
+background-color: rgb(255, 119, 0);
+font-size: x-large;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 50px;
+border: none;
+}
+.but2{
+    color: rgb(247, 247, 247);
+    background-color: rgb(23, 23, 23);
+    font-size: x-large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    border: none;  
+    margin-left: 20px; 
+}
