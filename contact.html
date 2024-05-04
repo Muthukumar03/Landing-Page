@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="contact.css">
+<body>
+    <div class="main">
+        <div class="bar">
+            <a onclick="homePage()" class="nam"><b>BUILDERHUB</b></a>
+            <a onclick="homePage()" class="hov1">Home</a>
+            <a onclick="servicePage()" class="hov2">Services</a>
+            <a onclick="aboutPage()" class="hov3">AboutUs</a>
+            <a onclick="contactPage()" class="hov4">ContactUs</a>
+        </div>
+        <div class="ph">
+            <img src="contact-img.png">
+        </div>
+        <div class="hed">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="inpt">
+            <input class="name" type="text" placeholder="Name"> <br>
+            <input class="phone" type="text" placeholder="Phone Number"> <br>
+            <input class="email" type="email" placeholder="Email"> <br>
+            <input class="msg" type="text" placeholder="Message">
+        </div>
+        <div class="but">
+            <button type="button">SEND</button>
+        </div>
+    </div>
+    <script>
+        function homePage(){
+           window.location.href = "form.html";
+        }
+        function servicePage(){
+           window.location.href = "service.html";
+        }
+        function aboutPage(){
+           window.location.href = "about.html";
+        }
+        function contactPage(){
+           window.location.href = "contact.html";
+        }
+      </script>
+</body>
+</html>
