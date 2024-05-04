@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="about.css">
+<body>
+    <div>
+        <div class="bar">
+            <a onclick="homePage()" class="nam"><b>BUILDERHUB</b></a>
+            <a onclick="homePage()" class="hov1">Home</a>
+            <a onclick="servicePage()" class="hov2">Services</a>
+            <a onclick="aboutPage()" class="hov3">AboutUs</a>
+            <a onclick="contactPage()" class="hov4">ContactUs</a>
+        </div>
+           <div class="imgs">
+            <img src="about-img.png">
+           </div>
+           <div class="ab">
+             <h1>About Us</h1>
+           </div>
+           <div class="para">
+             <p>There are many variations of passages of Lorem Ipsum available, but the<br> majority have suffered alteration in some form, by injected humour, or<br> randomised words which don't look even slightly believable. If you are <br>going to use a passage of Lorem Ipsum, you need to be sure there isn't <br>anything embarrassing hidden in the middle of text.</p>
+           </div>
+           <div class="but">
+             <button type="button">Read More</button>
+           </div>
+    </div>
+    <script>
+      function homePage(){
+         window.location.href = "form.html";
+      }
+      function servicePage(){
+         window.location.href = "service.html";
+      }
+      function aboutPage(){
+         window.location.href = "about.html";
+      }
+      function contactPage(){
+         window.location.href = "contact.html";
+      }
+    </script>
+</body>
+</html>
